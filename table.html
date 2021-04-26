@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+    <!-- 
+        表格 ：行,       列,          单元格，    表头，     边框，文字
+        table row<tr>   column<td>  cell        th       border
+        cellspacing 规定单元格之间的距离
+        cellpadding 规定单元的边和内容之间的距离
+     -->
+     <table cellspacing="40" cellpadding="20" border="1" width="600" height="600">
+         <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>成绩</th>
+         </tr>
+         <tr>
+             <td rowspan="2">张三</td>
+             <td colspan="2">19    /     20</td>
+             
+         </tr>
+         <tr>
+             
+             <td>20</td>
+             <td>15</td>
+             
+         </tr>
+         <tr>
+             <td>王五</td>
+             <td>20</td>
+             <td>99</td>
+             
+         </tr>
+     </table>
+</body>
+</html>
